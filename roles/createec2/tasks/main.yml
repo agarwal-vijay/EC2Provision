@@ -1,0 +1,10 @@
+# Basic provisioning example
+- ec2:
+     region: us-west-1   
+     key_name: Devops 
+     instance_type: t2.micro
+     image: ami-04b6c97b14c54de18 
+     wait: yes
+     group: "DEVSG" 
+     vpc_subnet_id: subnet-0fa8cc93580d01740
+     assign_public_ip: yes
