@@ -1,0 +1,6 @@
+region: us-west-1
+key_name: Devops
+instance_type: t2.micro
+image: ami-04b6c97b14c54de18
+group: "DRSG"
+vpc_subnet_id: subnet-0f6f59df4a5c34bca

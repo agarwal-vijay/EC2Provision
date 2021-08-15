@@ -1,0 +1,6 @@
+region: us-west-1
+key_name: Devops
+instance_type: t2.micro
+image: ami-04b6c97b14c54de18
+group: "QASG"
+vpc_subnet_id: subnet-06ef64069c93016b6
